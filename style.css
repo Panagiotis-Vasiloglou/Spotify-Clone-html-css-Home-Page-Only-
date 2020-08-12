@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Helvetica", sans-serif;
+}
+
+nav {
+    height: 5rem;
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.nav-link {
+    font-size: 1.05rem;
+    margin: 0 0.3rem;
+    color: #fff !important;
+    font-weight: 600;
+    padding: 0 1.3rem !important;
+}
+
+.nav-link:hover {
+    color: rgb(15, 233, 15) !important;
+}
+
+.main-content {
+    background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.192),
+            rgba(0, 0, 0, 0.199)
+        ),
+        url("/img/bg.jpg") !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    line-height: 1.3;
+}
+
+.main-content p {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.main-content .text {
+    transform: translateY(-10%);
+}
+
+.main-content button {
+    display: inline-block;
+    padding: 0.7rem 3.1rem;
+    margin-top: 1rem;
+    background-color: #1db954;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    border: 0;
+    transition: background 0.2s ease;
+}
+
+.main-content button:hover {
+    background-color: #1ed760;
+}
+.main-content button:focus {
+    outline: none;
+}
+
+.main-content button:active {
+    background-color: #1db954;
+}
+
+/* FOOTER */
+
+footer img {
+    height: 60px;
+}
+
+footer {
+    background-color: #141414;
+    padding-top: 6rem;
+}
+
+footer .container {
+    display: flex;
+    color: white;
+}
+
+footer .container div {
+    margin: 0 1rem;
+    width: 200px;
+}
+
+footer .container h6 {
+    color: #a49c90;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+footer .container .icons {
+    margin-left: 8rem;
+}
+
+.icon {
+    padding: 1rem;
+}
+
+.icon:hover {
+    color: #3ce478;
+}
+
+footer .second {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10rem;
+}
+
+footer .second img {
+    height: 20px;
+    margin: 0 1rem;
+}
+
+footer .second p {
+    font-size: 12px;
+    color: #a49c90;
+}
+
+footer .third p {
+    margin: 0 1rem;
+    font-size: 12px;
+}
+
+footer .last {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+}
