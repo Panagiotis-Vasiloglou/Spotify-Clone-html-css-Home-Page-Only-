@@ -1,4 +1,4 @@
-# Spotify-Clone-html-css-Home-Page-Only-
+# Spotify-Clone (Home Page Only)
 
 ### Spotify clone 
 
